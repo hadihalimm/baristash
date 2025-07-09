@@ -1,0 +1,16 @@
+{
+  "name": "baristash-ai",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "db": "workspace:*",
+    "auth": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
