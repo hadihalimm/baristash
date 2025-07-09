@@ -12,6 +12,10 @@
     },
     "apps/baristash-ai": {
       "name": "baristash-ai",
+      "dependencies": {
+        "auth": "workspace:*",
+        "db": "workspace:*",
+      },
       "devDependencies": {
         "@types/bun": "latest",
       },
